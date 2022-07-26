@@ -1,10 +1,33 @@
 /* Medium */
 @media screen and (max-width: 767px) {
+    /* Navbar */
     .desktop-logo {
         display: none;
     }
     .mobile-logo {
         display: block !important;
     }
+    /* Navbar end */
+
+
+
+    /* Banner */
+    .banner-content {
+        flex-direction: column-reverse;
+    }
+    .banner-left {
+        padding-left: 0 !important;
+    }
+    /* Banner end */
 }
 /* Medium end */
+
+
+
+/* Large */
+@media screen and (max-width: 992px) {
+    .banner-left {
+        padding-left: 3rem !important;
+    }
+}
+/* Large end */

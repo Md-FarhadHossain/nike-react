@@ -1,15 +1,26 @@
 /* Responsive css file */
 @import url(responsive.css);
 
-/* font-family: 'Poppins', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap');
 
 
 body {
     font-family: 'Poppins', sans-serif;
 }
-
+.button {
+    background: linear-gradient(315deg, #fa804c, orange);
+    color: #fff;
+    padding: .8rem 2.2rem;
+    border: 5px solid #ffe6b9;
+    border-radius: .5em;
+    font-weight: 500;
+}
 /* Header */
+header {
+    background: #FFF9F4;
+}
 .navbar-brand img{
     max-width: 270px;
 }
@@ -29,4 +40,26 @@ body {
 .mobile-logo {
     display: none;
 }
+
+/* Banner */
+.banner-left {
+    padding-left: 8rem;
+}
+.banner-left h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+}
+.banner-left h1>span {
+    color: #FA804C;
+    display: block;
+}
+.banner-image {
+    max-width: 90%;
+}
+.banner-left p {
+    font-size: .9rem;
+    color: #707070;
+}
+/* Banner end */
+
 /* Header end */
