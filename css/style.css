@@ -5,7 +5,9 @@
     font-family: 'Poppins', sans-serif */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap');
 
-
+html {
+    scroll-padding-top: 6rem !important;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -20,6 +22,10 @@ body {
 /* Header */
 header {
     background: #FFF9F4;
+}
+.navbar {
+    background: #FFF9F4;
+    box-shadow: 0 1px 18px #1414140f;
 }
 .navbar-brand img{
     max-width: 270px;
