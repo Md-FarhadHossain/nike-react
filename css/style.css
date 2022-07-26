@@ -1,0 +1,32 @@
+/* Responsive css file */
+@import url(responsive.css);
+
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.navbar-brand img{
+    max-width: 270px;
+}
+.navbar-toggler img {
+    width: 30px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.nav-link {
+    font-weight: 500;
+    color: #3C3C3C;
+}
+.mobile-logo {
+    display: none;
+}
+/* Header end */
