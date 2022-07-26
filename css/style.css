@@ -10,10 +10,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .button {
-    background: linear-gradient(315deg, #fa804c, orange);
+    background: /* linear-gradient(315deg, #fa804c, orange)*/  linear-gradient(315deg, #4c7afa, #5ba4ff);; 
     color: #fff;
-    padding: .8rem 2.2rem;
-    border: 5px solid #ffe6b9;
+    padding: 0.6rem 1.5rem;
+    border: 5px solid #daf1ff;
     border-radius: .5em;
     font-weight: 500;
 }
@@ -63,3 +63,42 @@ header {
 /* Banner end */
 
 /* Header end */
+
+
+
+
+/* Main section */
+
+/* Casual shoes */
+.casual-shoes h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+.card {
+    padding: .8rem;
+    border-radius: 20px;
+}
+.card-img {
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.card-img img {
+    height: 250px;
+    object-fit: cover;
+}
+.card-body,.card-footer {
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.card-body p {
+    font-size: .856rem;
+}
+/* Casual shoes end */
+
+/* Main section end */
