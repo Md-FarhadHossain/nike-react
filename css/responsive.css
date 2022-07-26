@@ -29,5 +29,14 @@
     .banner-left {
         padding-left: 3rem !important;
     }
+    .about-card-content {
+        flex-direction: column-reverse;
+    }
+    .about-image-content {
+        justify-content: center;
+    }
+    .about-card-body {
+        text-align: center;
+    }
 }
 /* Large end */

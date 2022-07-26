@@ -70,7 +70,7 @@ header {
 /* Main section */
 
 /* Casual shoes */
-.casual-shoes h1,.formal-shoes h1 {
+.casual-shoes h1,.formal-shoes h1,.about-headign {
     font-family: 'Bebas Neue', cursive;
 }
 .card {
@@ -118,3 +118,13 @@ header {
 /* Formal shoes end */
 
 /* Main section end */
+
+
+
+
+
+/* About us */
+.about-img {
+    width: 100px;
+}
+/* About us end */
